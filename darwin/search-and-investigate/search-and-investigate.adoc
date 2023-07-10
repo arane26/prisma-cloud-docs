@@ -1,0 +1,52 @@
+== Search and Investigate 
+
+Use the simplified search and investigate capability to find network security incidents and risks, create custom policies, and prevent data exfiltration attempts.
+
+[cols="30%a,70%a"]
+|===
+|*What do you want to do?*
+|*Start here*
+
+|Watch the *Search and Investigate* overview video
+|<PM provided video???>.gif
+
+|Understand how to search and investigate 
+|xref:investigate.adoc[Investigate]
+
+|Review the query types and relevant attributes
+|xref:query-types.adoc[Query Types]
+
+|Asset
+|
+
+|Event
+|
+
+|Config
+|
+
+|Search using quick and simple methods
+|xref:simple-search.adoc[Simple Search]
+
+|Search using advanced RQL queries and download the results
+|xref:rql-search.adoc[RQL Search]
+
+|Explore data and findings in graph and table views
+|xref:explore-data.adoc[Explore Data]
+
+|Save query for future use after exploring data 
+|xref:save-query.adoc[Save Query]
+
+|Create custom policies
+|xref:create-custom-policies.adoc[Create Custom Policies]
+
+|Query Libary
+|
+
+|Background Jobs
+|
+
+|Where do I go next?
+|<Provide links to Alerts, Policies docs???>
+
+|===

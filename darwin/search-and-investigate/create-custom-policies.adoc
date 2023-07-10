@@ -1,0 +1,22 @@
+:topic_type: task
+[.task]
+== Create Custom Policies
+
+On the Investigate page, you can: 
+
+[.procedure]
+
+. *Create a policy* from a specific query:
+.. run a query tentatively (to see if modifications are needed)
+.. save the satisfied query as a Saved Search
+.. convert a Saved Search into a policy
+
+. To *Download* results for a long-runnning query for post processing (e.g. for compliance purposes):
+.. run a query tentatively (to see if modifications are needed)
+.. click on download button to download all results in the table
+
+. To explore/investigate resources adhoc and does not have a download/policy creation purpose:
+.. run a query tentatively (to see if modifications are needed)
+.. click on specific resources to explore further in Resource Explorer
+
+//Currently none of the above use cases could work for big queries, which take a long time to run and often time out due to the current performance limitations.

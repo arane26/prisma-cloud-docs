@@ -1,0 +1,14 @@
+== Investigate 
+
+The *Search and Investigate* capability of Prisma Cloud allows your security teams to perform in-depth analysis and investigation of security incidents within your cloud infrastructure. It helps you to visualize your entire cloud infrastructure and provides insights into security and compliance risks. It helps you to connect the dots between configuration, user activity, and network traffic data, so that you have the context necessary to define custom policies and create alert rules.
+
+In case of a security incident, Prisma Cloud provides capabilities for investigation and forensics. It logs and retains detailed information about cloud events, allowing your security teams to analyze the timeline of activities and identify the root cause of the incident.
+
+Prisma Cloud uses natural language processing (NLP) that enables you to type in your query and you will get a curated list that closely matches your query. For complex or advanced queries, Prisma Cloud also enables you to search using a proprietary Resource Query Language (RQL) language.
+
+image::search-investigate-1.png[scale=40]
+
+See how you can use *Search and Investigate* to:
+
+* xref:explore-data.adoc[Explore Data]
+* xref:create-custom-policies.adoc[Create Custom Policies]

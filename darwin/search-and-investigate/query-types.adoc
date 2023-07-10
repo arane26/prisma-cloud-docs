@@ -1,0 +1,55 @@
+== Query Types
+
+The Investigate page includes *Simple Mode* (filter-based) and *RQL Mode* (RQL text-based) options for building queries. All the simple mode inputs can be converted to RQL queries, while only certain RQL queries can be converted to simple mode. 
+
+As you type in your query, Prisma Cloud will automatically provide you with query completion options with the supported query attributes. 
+
+Prisma Cloud supports the following query types:
+
+[cols="20%a,30%a,30%a,20%a"]
+|===
+|*Query Types*
+|*Description*
+|*RQL Prefix*
+|*Policy Types*
+
+|*Asset*
+|View your cloud assets with comprehensive security context
+|asset where
+|Attack Path, Workload Vulnerability
+
+|*Audit Event*
+|Search for audit logs for investigation and forensics
+|config from cloud.audit_logs where
+|Audit Event
+
+|*Network Configuration*
+|Explore network paths and identify assets exposed to the internet
+|config from network where
+|Network
+
+|*Network Flow*
+|Explore network flow logs for threat <detection or hunting???> and investigation
+|config from vpc.flow_record where
+|Network
+
+|*Permission*
+|View net resource permissions based on ingested IAM policies
+|config from iam where
+|IAM
+
+|*Resource Configuration*
+|Search configuration files based on cloud APIs and JSON rules
+|config from cloud.resource where
+|Config
+
+|*Vulnerability*
+|Explore top vulnerabilities discovered in your environment
+|vul where
+|Workload Vulnerability
+
+|===
+
+=== Build a Query 
+
+<verify & add query grammar attributes, query example, and screenshot???>

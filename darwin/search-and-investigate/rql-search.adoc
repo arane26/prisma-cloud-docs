@@ -1,0 +1,18 @@
+== RQL Search
+
+<details>
+
+query building
+search
+
+use asset for example queries if not then config queries
+
+=== Background Jobs
+
+//Submit a search (async) job to run in the background and check results later. View results in a table format.
+//Also available in the CSV format that you can download?
+
+
+=== Query Library
+
+//ootb saved queries almost mapping to the ootb policies, some ootb saved queries do not have corresponding ootb policies.

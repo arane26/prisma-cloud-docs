@@ -1,0 +1,24 @@
+== Explore Data
+
+The intelligent risk graph can be used to make groundbreaking discoveries and optimizations in your organization's security posture. You can use it to identify security blind spots, to improve incident response, and to reduce the risk of future attacks.
+
+It helps you quickly investigate risks and threats and to take steps to mitigate them from occurring again. It is also a powerful tool for incident response, which you can use to track the progress of an investigation, share findings with other security teams, and quickly get to the root cause of why the issue occurred. Oce you find issue, you can also pivot on a specific vulnerability and fix it. 
+
+
+* *View Mode* <?graph vs. table details?>
+
+** In the *Graph* mode, hover on a node to view the highlights.
++
+image::custom-search-graph-1.png[scale=40]
+
+** Click on the node to view the asset details.
++
+image::custom-search-graph-2.png[scale=40]
+
+** Click *Attack Paths* to view the attack paths applicable to the particular asset. <?action for user?>
++
+image::custom-search-graph-3.png[scale=40]
+
+** Click *View Alert Details* to view the alert details.
++
+image::custom-search-graph-4.png[scale=40]

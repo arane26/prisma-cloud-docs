@@ -1,0 +1,53 @@
+:topic_type: task
+[.task]
+== Simple Search
+
+Before you write a custom query, you can view the recently searched queries or use one of the top saved queries that allow you to take advantage of the rich set of security research provided by Prisma Cloud. For example, you want to know which instances are exposed to the internet. As you type im the query in plain English, the saved searches begin to display.
+
+You can search using the following methods:
+
+[.procedure]
+
+. Click *Search*.
++
+image::simple-search-1.png[scale=40]
+
+.. *Recent Searches* displays the most recent query search results along with the query title and the timestamp for when it was run. You can view up to 5 pages and each page displays 10 recent searches listed <chronologically???>. 
+.. *Top Saved Queries* displays the top 10 most popular queries along with query title, who created it (author), and a description of the query.
+.. Click on any query listed under *Recent Searches* or *Top Saved Queries* to see the graph <with further details???>. 
++
+image::simple-search-graph-1.png[scale=40]
+
+. Click in the *Search* bar.
++
+image::simple-search-2.png[scale=40]
+
+.. Enter your query, for example _assets with exposure_. 
+.. Prisma Cloud matches your query keywords with the top saved queries and displays the most relevant results. 
+.. Click on any query to see the graph <with further details???>.
+.. Click on any <query type or attribute???> such as, *Asset*, *Resource Configuration*, *Permission*, *Vulnerability*, *Audit Event*, *Network Configuration*, or *Network Flow* to view queries specific to that <query type or attribute???>. 
+
+. Click *Custom Search*.
++
+image::custom-search-1.png[scale=40]
+
+.. Select a <query type or attribute???>, for example *Asset* from the drop-down.
+.. Filter further by selecting *Asset Type*, *Asset Service*, or more <limit???> that you want to query.
+.. Click *Search* to view the results in graph.
+.. Click *+ Add* to select more options and then click *Re-run Search*.
+.. You can name your custom query and *Save* or *Download* it.
++
+image::custom-search-4.png[scale=40]
+
+
+//Search optimized for speed and relevancy
+//query method vs. search process decouple
+//search generic
+//loading a query
+//exploring
+//saving as saved query 
+
+//create policy -- query has been saved --opens modal
+//not saved, then save query 1st & then save as policy
+//simple vs rql
+//graph vs. table
