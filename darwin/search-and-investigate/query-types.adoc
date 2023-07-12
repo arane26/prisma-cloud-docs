@@ -13,43 +13,42 @@ Prisma Cloud supports the following query types:
 |*RQL Prefix*
 |*Policy Types*
 
-|*Asset*
-|View your cloud assets with comprehensive security context
+|xref:asset-queries.adoc[Asset]
+|View your cloud assets with comprehensive security context.
 |asset where
 |Attack Path, Workload Vulnerability
 
-|*Audit Event*
-|Search for audit logs for investigation and forensics
+|xref:event-queries.adoc[Audit Event]
+|Search for audit logs for investigation and forensics.
 |config from cloud.audit_logs where
 |Audit Event
 
-|*Network Configuration*
-|Explore network paths and identify assets exposed to the internet
+|xref:network-config-queries.adoc[Network Configuration]
+|Explore network paths and identify assets exposed to the internet.
 |config from network where
 |Network
 
-|*Network Flow*
-|Explore network flow logs for threat <detection or hunting???> and investigation
+|xref:network-flow-queries.adoc[Network Flow]
+|Explore network flow logs for incidents and threat detection and investigation.
 |config from vpc.flow_record where
 |Network
 
-|*Permission*
-|View net resource permissions based on ingested IAM policies
+|xref:permissions-queries.adoc[Permissions]
+|View net resource permissions based on ingested IAM policies.
 |config from iam where
 |IAM
 
-|*Resource Configuration*
-|Search configuration files based on cloud APIs and JSON rules
+|xref:resource-config-queries.adoc[Resource Configuration]
+|Search configuration files based on cloud APIs and JSON rules.
 |config from cloud.resource where
 |Config
 
-|*Vulnerability*
-|Explore top vulnerabilities discovered in your environment
+|*Vulnerability* <tbd???>
+|Explore top vulnerabilities discovered in your environment.
 |vul where
 |Workload Vulnerability
 
 |===
 
-=== Build a Query 
-
-<verify & add query grammar attributes, query example, and screenshot???>
+// Build a Query 
+// verify & add query grammar attributes, query example, and screenshots

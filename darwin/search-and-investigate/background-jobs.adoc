@@ -1,0 +1,5 @@
+== Background Jobs
+
+
+//Submit a search (async) job to run in the background and check results later. View results in a table format.
+//Also available in the CSV format that you can download?

@@ -1,29 +1,22 @@
 == Search and Investigate 
 
-Use the simplified search and investigate capability to find network security incidents and risks, create custom policies, and prevent data exfiltration attempts.
+The *Search and Investigate* capability of Prisma Cloud allows your security teams to perform in-depth analysis and investigation of security incidents within your cloud infrastructure. It helps you to visualize your entire cloud infrastructure and provides insights into security and compliance risks. It helps you to connect the dots between configuration, user activity, and network traffic data, so that you have the context necessary to define custom policies and create alert rules.
+
+In case of a security incident, Prisma Cloud provides capabilities for investigation and forensics. It logs and retains detailed information about cloud events, allowing your security teams to analyze the timeline of activities and identify the root cause of the incident.
+
+Prisma Cloud uses natural language processing that enables you to type in your query (Simple Mode) and for complex or advanced queries, it enables you to search using a proprietary Resource Query Language anguage (RQL Mode). The search provides you with a curated list that closely matches your query. You can then use the results generated from your *Search* for *Custom Policy Creation* and *Data Exploration*.
+
 
 [cols="30%a,70%a"]
 |===
 |*What do you want to do?*
 |*Start here*
 
-|Watch the *Search and Investigate* overview video
+|Watch the *Search and Investigate* video
 |<PM provided video???>.gif
-
-|Understand how to search and investigate 
-|xref:investigate.adoc[Investigate]
 
 |Review the query types and relevant attributes
 |xref:query-types.adoc[Query Types]
-
-|Asset
-|
-
-|Event
-|
-
-|Config
-|
 
 |Search using quick and simple methods
 |xref:simple-search.adoc[Simple Search]
@@ -34,19 +27,51 @@ Use the simplified search and investigate capability to find network security in
 |Explore data and findings in graph and table views
 |xref:explore-data.adoc[Explore Data]
 
-|Save query for future use after exploring data 
-|xref:save-query.adoc[Save Query]
-
 |Create custom policies
 |xref:create-custom-policies.adoc[Create Custom Policies]
 
-|Query Libary
-|
+|Save query for future use after exploring data 
+|xref:query-library.adoc[Query Library]
 
-|Background Jobs
-|
+|Run background jobs
+|xref:background-jobs.adoc[Background Jobs]
 
-|Where do I go next?
-|<Provide links to Alerts, Policies docs???>
+|Investigate cloud assets
+|* xref:asset-queries.adoc[Asset Queries]
+
+|Investigate audit events
+|* xref:event-queries.adoc[Event Queries]
+* xref:event-query-attributes.adoc[Event Query Attributes]
+* xref:event-query-examples.adoc[Event Query Examples]
+
+|Investigate resource configuration
+|* xref:resource-config-queries.adoc[Resource Configuration Queries]
+* xref:resource-config-query-attributes.adoc[Resource Configuration Query Attributes]
+* xref:resource-config-query-examples.adoc[Resource Configuration Query Examples]
+
+|Investigate network incidents
+|* xref:network-queries.adoc[Network Queries]
+* xref:network-flow-queries.adoc[Network Flow Queries]
+* xref:network-flow-query-attributes.adoc[Network Flow Query Attributes]
+* xref:network-flow-query-examples.adoc[Network Flow Query Examples]
+* xref:network-config-queries.adoc[Network Configuration Queries]
+* xref:network-config-query-attributes.adoc[Network Configuration Query Attributes]
+* xref:network-config-query-examples.adoc[Network Configuration Query Examples]
+
+|Investigate permissions
+|* xref:permissions-queries.adoc[Permissions Queries]
+* xref:permissions-query-attributes.adoc[Permissions Query Attributes]
+* xref:permissions-query-examples.adoc[Permissions Query Examples]
+* xref:permissions-query-conditions.adoc[Permissions Query Conditions]
+
+|Where do I go next? 
+// check with PM on the relevant next step to direct our users in their PC journey
+|* Review Alerts
+* Create Policies 
+* Have a query you think would be useful to other customers? Contribute using *Edit on Github* link provided on each page!
 
 |===
+
+//image::search-investigate-1.png[scale=40]
+//workflow based on the top goals users have in mind - exploring the data, finding the right thing they want to look into
+//3 step process - write/run a query based on intent, get a list of results/look at the results table high-level, clicking into individual roles to explore more details in the modal/sidecar

@@ -1,0 +1,13 @@
+== Query Library
+
+The *Query Library* displays all of your *Saved Queries* and *Background Jobs* in one location. 
+
+image:query-library-saved-searches-1.png[scale=40]
+
+//ootb saved queries almost mapping to the ootb policies, some ootb saved queries do not have corresponding ootb policies.
+
+// Results on the Investigate page are optimized to load the initial set of results faster. When you enter the query and click *Search*, the interface loads the first 100 search results. Click the *Load More* button to fetch additional results. All config attributes except userinput:[cloud.account.group, azure.resource.group, limit search records, aggregate functions (count and group by)], and all finding type attributes such as userinput:[finding.type, finding.severity], are currently optimized for faster search results.
+
+=== Saved Queries
+
+Prisma Cloud enables you to run a query on the Investigate page, and save the query as a saved search so that you can re-run the same search periodically. If you then use this saved search query as match criteria in a policy, the matched issues that trigger alerts can be different from the corresponding results for the same query on the Investigate page.

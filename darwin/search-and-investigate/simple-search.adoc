@@ -2,6 +2,8 @@
 [.task]
 == Simple Search
 
+You can choose to either create a new search or directly load a query from the query library (search suggestions). View the search results in the traditional table view or the interactive graph view powered by Security Graph. 
+
 Before you write a custom query, you can view the recently searched queries or use one of the top saved queries that allow you to take advantage of the rich set of security research provided by Prisma Cloud. For example, you want to know which instances are exposed to the internet. As you type im the query in plain English, the saved searches begin to display.
 
 You can search using the following methods:

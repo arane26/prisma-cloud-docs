@@ -19,4 +19,6 @@ On the Investigate page, you can:
 .. run a query tentatively (to see if modifications are needed)
 .. click on specific resources to explore further in Resource Explorer
 
+//create policy -- query has been saved --opens modal
+//not saved, then save query 1st & then save as policy
 //Currently none of the above use cases could work for big queries, which take a long time to run and often time out due to the current performance limitations.
